@@ -1,0 +1,82 @@
+/*TODOO Navbár megformázása*/
+body {
+background-color: #ebe6e6
+}
+/*INDEX-FORM*/
+.c2{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    
+}
+#slider
+{
+   
+}
+#c3
+{
+        width:100%;
+    margin-left: 30%;
+    min-height: 400px;
+    background-color:#ffa900 ;
+}
+.ikon{
+   width:140px;
+}
+#Logo
+{font-size: 25px;
+font-family:Impact, fantasy}
+#showcase
+{
+    background-color: white;
+min-height: 400px;
+text-align: center;
+
+}
+#dobozok .box
+{
+    float: left;
+    width: 30%;
+    padding:10px;
+    text-align: center;
+}
+#notLogged
+{text-align:center; 
+ padding:50px;
+}
+#footer
+{
+    min-height: 200px;
+}
+.kiemelt-img
+{width: 30%}
+
+#dem
+{font-weight:bold;
+color: yellow;}
+
+#page-select
+{
+    width:15%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    right: 43%;
+    
+}
+#carouselExampleIndicators
+{
+    margin-top: 300px;
+    background-color: white;
+}
+
+/*REGFORM*/
+#regDiv
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 35%;
+    width: 30%;
+    background-color: white;
+}

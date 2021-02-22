@@ -1,0 +1,45 @@
+<div align="left" class="container w-100 shadow p-3 mb-5 bg-dark rounded" style="display:none;" id="divmasodik">
+    <div class="p-2 bg-dark w-100">
+    <div class="  p-3 mb-5 bg-dark" >
+        <input required="" class="rounded" maxlength="40"  type="text"  name="megnevezes" placeholder="Megnevezés">
+        <label class="ml-2 white">Rövid, lényegretörő cím</label><br>
+        <input class="rounded" type="number" maxlength="15"  name="ertek" required  placeholder="Érték (HUF)">
+        <div class="list-group-item mt-4">
+            <span class="mr-5 "> <input type="radio" name="allapot" value="5">Használt</span>
+                <span class="ml-2 mr-5"><input type="radio" name="allapot" value="4">Megkímélt</span>
+                <span class="ml-2"><input type="radio" name="allapot" value="2">Újszerű</span><br>
+    <span class="mr-5"><input type="radio" name="allapot" value="3">Kitűnő</span>
+    <span class="ml-4"><input type="radio" name="allapot" value="1">Új</span>
+        </div>
+        <br><textarea style="min-height:150px;" required="" class=" mt-2 w-50" maxlength="255" name="leiras" placeholder="Termék leírása"></textarea>
+    </div>
+    <div class="list-group-item mt-5 shadow p-3 mb-5 bg-white rounded">
+        <h6>Ami csere érdekel</h6>
+           <select  name="cserekategoria" id="kategoriaid2" >
+      <option value="0"></option>
+      <option value="1">Autó-Motor</option>
+      <option value="2">Számítógép</option>     
+      <option value="4">Játék</option>     
+      <option value="8">Műszaki cikk</option>     
+      <option value="7">Háztartás</option>     
+      <option value="5">Divat, ruha</option>     
+      <option value="10">Sport,és fitness</option>     
+      <option value="11">Otthon, kert</option>     
+      <option value="9">Irodatechnika</option>     
+      <option value="6">Hobbi</option>     
+        </select><br>
+        
+         <div id="alkategoriaDIV2" style="display:none">
+        <h6>Alkategória</h6>
+        <select required="" class="alkategoriak2" name="cserealkategoria">
+            <option value='1'> </option>
+            </select>
+        </div>
+        <input type="text" class="mt-4" maxlength="50" name="cserelne" placeholder="Ezekre cserélném">
+    </div>
+        <div class="w-100" align="center">
+    <input class="btn btn-danger w-50 shadow p-3 mb-5 bg-red rounded" type="submit" style="margin:auto" value="Feltöltés">
+        </div>
+    </form>
+    </div>
+</div>

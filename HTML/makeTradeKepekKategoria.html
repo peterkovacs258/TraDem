@@ -1,0 +1,40 @@
+<div class="container w-100 mt-5 pt-5" align="center">
+    <div class="w-50  shadow p-3 mb-5 bg-white rounded">
+        <div class="w-100 bg-dark" >
+        <form action="makeTrade.php" class="list-group "   method="post" enctype="multipart/form-data">
+       <div class="list-group-item list w-100 p-0 m-0 " >
+
+           <div class=" shadow-sm p-1 mb-2 rounded " id="hFeladas" ><h5> Hirdetés feladása</h5></div>
+           <h6>Főkategória*</h6>
+           <select required="" name="kategoriak" id="kategoriaid" >
+      <option value="0"></option>
+      <option value="1">Autó-Motor</option>
+      <option value="2">Számítógép</option>     
+      <option value="4">Játék</option>     
+      <option value="8">Műszaki cikk</option>     
+      <option value="7">Háztartás</option>     
+      <option value="5">Divat, ruha</option>     
+      <option value="10">Sport,és fitness</option>     
+      <option value="11">Otthon, kert</option>     
+      <option value="9">Irodatechnika</option>     
+      <option value="6">Hobbi</option>    
+        </select><br>
+        <div id="alkategoriaDIV" style="display:none">
+        <h6>Alkategória</h6>
+        <select required="" name="alkategoriak" class="alkategoriak">
+            <option value='1'> </option>
+            </select>
+        </div>
+    </div>
+
+            
+            <div class="w-100 list-group-item bg-white" style="min-height: 300px;">
+        <h6>Kép hozzáadása (max 4)</h6>
+    <input class="form-control bg-white" type="file" name="file[]" multiple accept="image/*">
+    </div>
+
+    <input class="btn btn-light col-4 mt-4 mb-4 " type="button" id="kovetkezodiv" value="Következő">
+
+    </div>
+</div>
+</div>

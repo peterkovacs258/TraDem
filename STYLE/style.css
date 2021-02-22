@@ -1,0 +1,320 @@
+html
+{width:100%;}
+/*TODOO Navbár megformázása*/
+
+body {
+ /*#ebe6e6*/
+ width: 100%;
+ font-size: 13px;
+ padding:0;
+ margin:0;
+}
+
+
+/*FOOTER*/
+
+footer .main-footer{	
+    font-size: 13px;
+    padding: 20px 0;
+    background: #252525;
+   margin-top: 200px;}
+footer ul{	padding-left: 0;	list-style: none;}
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+.footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+.widget{	padding: 20px;	margin-bottom: 40px;}
+.widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget li a{	color: #ff8d1e;}
+.widget li a:hover{	color: #4b92dc;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 35%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+#imgbox{ border-radius: 30px;  width: 150px; height: 150px; background-image: url('../IMGsite/pexels-photo-3965408.jpeg');
+         background-position: center;  background-size: 150px 150px;}
+
+
+
+
+/*NAVBAR*/
+.nav-item a{ font-size: 13px; color:white}
+.dropdown {font-size: 13px;}
+#dem
+{font-weight:bold;
+color: orange;}
+.navbar{background-color: #252525;}
+#navbarNavAppear,#navbarNavDisappear{background-color:#bababa; }
+#navbarNavAppear a,#navbarNavDisappear a{color:white;}
+#navbarNavAppear a:hover,#navbarNavDisappear a:hover{color:#222;font-size: 103%; font-weight: 600;}
+.nav-item span{background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 10px;position: relative;width: 50%;}
+.nav-item span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+#SmallDropDownDiv a
+{color:black;}
+#navbarNavAppear
+{display: none;}
+.btnF{background-color: #ff8d1e; color:#fff;}
+.btnF:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+}
+.navbar form{ margin-right:20px;}
+.navbar button{font-size: 12px; margin-top: 7px;}
+.navbar img{width:70px; max-height:65px; margin-left: 50px;}
+#Logo{font-size: 38px;
+font-family:Impact, fantasy;
+margin-left: 40px;
+}
+
+/*Trades All*/
+.pageSelector{width:100%;}
+.tordelform{background-color: rgba(235, 235, 235);
+padding:50px;}
+
+/*INDEX-FORM*/
+#dobozok
+{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.c2{
+  
+    width:69%;
+    overflow:hidden;
+    margin-left: 15%;
+    
+}
+#dobozok .box
+{
+    float:left;
+    width: 33%;
+    padding:10px;
+    text-align: center;
+}
+#slider{
+    
+    width:60%;
+    margin-left: 20%;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.catDiv
+{width:80%;
+margin-left: 10%;
+text-align: center;}
+
+#notLogged
+{text-align:center; 
+ padding:50px;
+}
+#page-select
+{
+    width:15%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    right: 43%;
+    
+}
+.carouseldiv{
+    opacity: 0.8;   
+    font-size: 30px;
+    background-color:whitesmoke;
+   
+   
+    
+}
+.carouseldiv span
+{
+    color:black;
+}
+.legfrissebbDiv{
+    height:240px !important;
+    border: 1px solid lightgrey !important;
+}
+.legfrissebbCserek {
+    height:150px !important;
+    width:80% !important;
+    
+}
+/*CSEREk.php*/
+
+#kartya
+{
+   margin:auto;
+    width:90%;
+    margin-bottom: 50px;
+    text-align:center
+        
+}
+
+.kapcsolatkep img {width:100%}
+.kontener{
+      position: relative;
+  
+  color: white;
+}
+.szoveg
+{ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);};
+#szures{width:100%}
+
+/*CAROUSEL*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+ filter: invert(100%);
+}
+.carousel-indicators li {
+
+    background-color:darkgray;
+ 
+}
+.carousel-indicators .active {
+
+    background-color: black;
+}
+.fokep h5{color:white;}
+/*TABLE*/
+table{ padding:3em;
+       margin-top: 50px;
+}
+td{
+   padding: 100px;
+}
+
+.mutat {  
+  transition: opacity 2s linear;  
+  transform:translate(0);
+  opacity: 1;
+}  
+
+.elrejt {  
+  transform:translate(9999px);
+  opacity: 0;  
+}
+/*MAKE TRADE*/
+#kovetkezodiv
+{margin:auto;}
+#hFeladas{color:white; border-collapse: collapse; background-color: rgb(55, 53, 67);}
+/*LOGIN*/
+#loginDiv{ background-image: url('../IMGsite/pexels-photo-322207.jpeg'); width: 100%; height: 400px; margin-top: 100px; padding-bottom:50px; background-repeat: no-repeat;   background-position: center; }
+#loginDiv img{width: 100%;}
+#loginbox{border-radius: 30px; background-color:rgba(51, 51, 49); min-width: 300px; color:white}
+
+/*REGISTRATION FORM*/
+#regDiv{background-color: rgba(54, 54, 59); min-width: 280px; border-radius: 30px; margin:auto;}
+#registration{font-size: 30px; font-weight: bold; border: 1px solid white}
+#reg_form {padding: 0; margin: 0; background-image: url('../IMGsite/pexels-photo-3966232.jpeg'); width: 100%; min-height: 1250px; background-repeat: no-repeat;   background-position: center; }
+#reg_form img{width:100%; padding:0; margin:0;}
+#reg_form input{ font-size: 17px; margin:0;}
+#reg_form h2 {background-color: rgba(51, 51, 49); color:orange; height: 100px;   border: 2px solid white; padding-top: 35px; border-radius: 15px; font-family: Impact, 
+              Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+              font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; min-width: 150px; }
+
+.inputsiker{border-color: green;}
+.inputhiba {border-color: #e74c3c;}
+#email_error,#pwd_error,#pwdc_error,#phone_error,#irsz_error{
+	color: #e74c3c; 
+display:none;}
+.form-control.error small {visibility: visible;}
+
+
+/*//////////////*/
+
+/*STANDALONE PROPERTIES*/
+.black{background-color:black;}
+.white{background-color:white;}
+.orange{background-color: orange;}
+.light-grey{background-color:	#E8E8E8;}
+.silver{background-color: #C0C0C0;}
+.minh800{min-height: 700px;}
+.w-90{width:100%;}
+.kerek{border-radius: 30px;}
+.hide{ display: none;}
+
+
+@media only screen and (max-width : 1200px) {
+.resizeszoveg span{font-size: 20px;}
+
+}
+@media only screen and (max-width : 900px) {
+
+#Logo{font-size: 30px; margin-left:40px;}
+.navbar .list-group-item{padding:0;}
+#kerescsere{margin-top:10px;}
+.kapcsolat{display:none;}
+.resizeszoveg span{font-size: 15px;}
+.resizeszoveg{height: 20%; margin:auto; padding: 0;}
+
+}
+@media only screen and (max-width : 750px) {
+#Logo{margin-left: 10px; font-size: 25px;}
+.navform{ margin-right:20px; display: none;}
+    #navbarNavDisappear{display:none;}
+#navbarNavAppear{display:block;}
+.resizeszoveg{display:none;}
+
+
+
+}
+@media only screen and (max-width : 705px) {
+
+#kerescsere{ width: 120px; max-height:30px; }  
+
+}
+
+/*ANIMATION*/
+#regDiv{
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+#animate
+{ margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
